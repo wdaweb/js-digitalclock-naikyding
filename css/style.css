@@ -1,0 +1,146 @@
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+h2{
+    font-family: 'Coda Caption', sans-serif;
+
+}
+.nav{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+h5{
+    font-size: 1rem;
+}
+span{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.3rem;
+}
+#one{
+    border-top-left-radius:3rem;
+    background:lightcoral;
+}
+#one:hover{
+    background:rgb(252, 144, 160);
+}
+#two{
+    border-top-right-radius:3rem;
+    background-color:lightsalmon;
+}
+#two:hover{
+    background-color:rgb(250, 176, 146);
+}
+#three{
+    border-bottom-left-radius: 3rem;
+    background-color: lightskyblue;
+}
+#three:hover{
+    background-color: rgb(160, 214, 247);
+}
+#four{
+    border-bottom-right-radius: 3rem;
+    background-color: lightgreen;
+}
+#four:hover{
+    background-color: rgb(175, 247, 175);
+}
+.itemIcon_r{
+    position: absolute;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2rem;
+    bottom:.3rem;
+    right:.3rem;
+}
+.itemIcon_o{
+    position: absolute;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2rem;
+    bottom:.3rem;
+    left:.3rem;
+    background-color:rgb(248, 112, 59);
+}
+.container-fluid{
+    position: relative;
+}
+.btn-o {
+    color: #fff;
+    background-color:rgb(248, 94, 33);
+    border-color:rgb(248, 94, 33);
+}
+.btn-o:hover {
+    color: #fff;
+    background-color:rgb(155, 53, 13);
+    border-color:rgb(155, 53, 13);
+}
+h1{
+    cursor: pointer;
+}
+h1:hover{
+    color:rgb(110, 119, 128);
+}
+.itemIcon_b{
+    position: absolute;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2rem;
+    top:.3rem;
+    right:.3rem;
+    background-color: rgb(61, 180, 253);
+}
+.itemIcon_g{
+    position: absolute;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 2rem;
+    top:.3rem;
+    left:.3rem;
+    background-color: rgb(62, 218, 62);
+}
+.row_h500{
+    min-height: 600px;
+}
+.dis_time{
+    position: absolute;
+    width:300px;
+    bottom:0%;
+    left:50%;
+    margin-left: -150px;
+    background-color: rgba(255,255,255, .5);
+    z-index: 2;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    box-shadow: 0 0 15px #888;
+}
+#one, #two, #three, #four{
+    padding:1rem 1rem 1rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+.info{
+right:50%;
+margin-right: -140px;
+font-size: 1.3rem;
+color:#999;
+}
+h6{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.3rem;
+}
+img{
+    width:130px;
+}
